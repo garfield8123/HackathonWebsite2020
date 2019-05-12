@@ -1,0 +1,60 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.hackathonpictures{
+	display: none;
+}
+.logonav {
+	width: inherit;
+	height: inherit;
+}
+.people {
+	width: inherit;
+	height: inherit;
+}
+.active {
+background-color: #4CAF50;
+}
+body {	
+font-family: 'Oswald Bold', Oswald, sans-serif; 
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.slideshow {
+	width: inherit;
+	height: inherit;
+}
