@@ -21,9 +21,6 @@ text-decoration: none;
 li a:hover:not(.active) {
 background-color: #111;
 }
-.hackathonpictures{
-	display: none;
-}
 .logonav {
 	width: inherit;
 	height: inherit;
@@ -38,6 +35,11 @@ background-color: #4CAF50;
 body {	
 font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
+.slideshow {
+	width: inherit;
+	height: inherit;
+}
+.mySlides {display:none;}
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -53,8 +55,4 @@ font-family: 'Oswald Bold', Oswald, sans-serif;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
-}
-.slideshow {
-	width: inherit;
-	height: inherit;
 }
