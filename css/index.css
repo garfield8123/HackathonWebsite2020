@@ -5,6 +5,7 @@ padding: 0;
 overflow: hidden;
 position: fixed;
 width: 100%;
+top: 0;
 background-color: #333;
 font-family: 'Oswald Bold', Oswald, sans-serif; 
 z-index: 300;
@@ -16,32 +17,33 @@ float: left;
 
 li a {
 display: block;
-color: white;
+color: #ffffff;
 text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
 
 li a:hover:not(.active) {
-background-color: #111;
+	background-color: #ddd;
+	color: black;
 }
-.logonav {
-	width: inherit;
-	height: inherit;
+
+.active {
+	background-color: #000000;
+  color: white;
 }
 .people {
 	width: inherit;
 	height: inherit;
 }
-.active {
-background-color: #4CAF50;
-}
 body {
 	
 font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
+/*Slideshow image and fade css and have text centered in the middle*/
 .slideshow {
 	width: 100%;
+	opacity: 0.5;
 }
 .centered {
   position: absolute;
@@ -57,11 +59,11 @@ font-family: 'Oswald Bold', Oswald, sans-serif;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .2} 
+  to {opacity: 0.5}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {opacity: .2} 
+  to {opacity: 0.5}
 }
