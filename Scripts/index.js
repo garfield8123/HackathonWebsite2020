@@ -4,7 +4,7 @@ carousel();
 function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
+  for (i = 0; i < x.length; i+=2) {
     x[i].style.display = "none";  
   }
   myIndex+=2;
