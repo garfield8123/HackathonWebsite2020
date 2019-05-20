@@ -33,7 +33,6 @@ li a:hover:not(.active) {
 	height: inherit;
 }
 body{
-  background-color: black;
    font-family: 'Oswald Bold', Oswald, sans-serif; 
    width: 100%;
 }
