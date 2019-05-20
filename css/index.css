@@ -53,12 +53,12 @@ body{
   animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 0.5}
+  from {opacity: .5} 
+  to {opacity: 0.7}
 }
 @keyframes fade {
-  from {opacity: .2} 
-  to {opacity: 0.5}
+  from {opacity: .5} 
+  to {opacity: 0.7}
 }
 .questions {
   background-color: #00f2bb;
