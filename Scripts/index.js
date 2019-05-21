@@ -7,13 +7,13 @@ function carousel() {
   i = 0;
   while(i < x.length){
     x[i].style.display = "none";
-    i +=2;
+    i ++;
   }
   /*
   for (i = 0; i < x.length; i+=2) {
     x[i].style.display = "none";  
   }*/
-  myIndex+=2;
+  myIndex++;
   if (myIndex > x.length) {
     myIndex = 1;
   }    
