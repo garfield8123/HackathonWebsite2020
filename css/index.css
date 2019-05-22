@@ -48,9 +48,9 @@ body{
 }
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 0.2s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 0.2s;
 }
 @-webkit-keyframes fade {
   from {opacity: .5} 
@@ -60,6 +60,7 @@ body{
   from {opacity: .5} 
   to {opacity: 0.7}
 }
+
 .questions {
   background-color: #00f2bb;
   color: #444;
