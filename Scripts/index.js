@@ -4,15 +4,16 @@ carousel();
 function carousel() {
   var i;
   var x = document.getElementsByClassName("mySlides");
+  /*
   i = 0;
   while(i < x.length){
     x[i].style.display = "none";
     i ++;
-  }
-  /*
-  for (i = 0; i < x.length; i+=2) {
-    x[i].style.display = "none";  
   }*/
+  
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
   myIndex++;
   if (myIndex > x.length) {
     myIndex = 1;
