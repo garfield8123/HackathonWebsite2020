@@ -48,9 +48,9 @@ body{
 }
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 0.2s;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 0.2s;
+  animation-duration: 1.5s;
 }
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -60,7 +60,7 @@ body{
   from {opacity: .4} 
   to {opacity: 1}
 }
-
+.mySlides {display: none;}
 .questions {
   background-color: #00f2bb;
   color: #444;
