@@ -125,6 +125,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+		color: #00f2bb;
 }
 video {
 	width: 100%;
