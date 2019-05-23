@@ -116,6 +116,7 @@ footer{
 	font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 .overlay {
+		background-color: #333;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -125,6 +126,7 @@ footer{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+		color: white;
 }
 video {
 	width: 100%;
