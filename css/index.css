@@ -135,3 +135,9 @@ video {
 	padding: 15px 20px;
 	
 }
+a{
+	color: white;
+}
+a.active{
+	color: white;
+}
