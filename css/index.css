@@ -136,8 +136,5 @@ video {
 	
 }
 a{
-	color: white;
-}
-a.active{
-	color: white;
+	color: black;
 }
