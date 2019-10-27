@@ -73,6 +73,9 @@ body{
   transition: 0.4s;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
+.title {
+  color: #00f2bb;
+}
 .gap {
   background-color: white;
   padding: 18px 18px 18px 50px;
