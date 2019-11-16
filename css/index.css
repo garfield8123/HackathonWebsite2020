@@ -60,6 +60,10 @@ body{
   from {opacity: .4} 
   to {opacity: 1}
 }
+@media only screen and (max-width: 600px) {
+  
+}
+
 .mySlides {display: none;}
 .questions {
   background-color: #00f2bb;
@@ -73,8 +77,18 @@ body{
   transition: 0.4s;
   font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
+.Maintitle{
+  font-size: 450%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  color: #00f2bb;
+}
 .title {
   color: #00f2bb;
+  display: block;
+
 }
 .gap {
   background-color: white;
