@@ -171,6 +171,11 @@ a:hover{
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.part {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  width: 60%;
+}
 .sponsors {
   height: 50%;
   width: 50%;
