@@ -162,3 +162,13 @@ a{
 a:hover{
   color: black;
 }
+.image{
+  margin-bottom:5%;
+  margin-top: 5%;
+}
+.spo{
+  padding-top: 5%;
+}
+.sponsors {
+  height: 50%;
+}
