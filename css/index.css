@@ -1,3 +1,4 @@
+/*
 ul {
 list-style-type: none;
 margin: 0;
@@ -23,7 +24,7 @@ text-decoration: none;
 li a:hover:not(.active) {
 	background-color: #ddd;
 	color: black;
-}
+}*/
 .active {
 	background-color: #000000;
   color: white;
@@ -138,11 +139,10 @@ footer{
 }
 .overlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
+    bottom: 30%;
+    left: 0%;
+    right: 0%;
+    display: -webkit-flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
