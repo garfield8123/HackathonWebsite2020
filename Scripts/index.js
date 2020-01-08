@@ -1,3 +1,4 @@
-function logclick(){
-  $('a[target="_blank"]').removeAttr('target');
-}
+$('a.yourlink').click(function(e) {
+  e.preventDefault();
+  window.open('./Scripts/index.php?hello=true');
+});
